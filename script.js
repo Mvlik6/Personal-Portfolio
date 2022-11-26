@@ -8,7 +8,7 @@
         console.log("click");
 }*/
 tailwind.config ={
-content: ["./dist/**/*.{html,js}"],
+content: ["./**/*.{html,js}"],
 darkMode : 'class',
 theme: {
   extend: {
