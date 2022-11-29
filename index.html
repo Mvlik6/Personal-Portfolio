@@ -28,11 +28,14 @@
         <!--<button class="toggle-dark" onclick="toggler()"><i class="fa-regular fa-moon object-fill"></i></button>--> 
         
       </div>
-      <label class="switch">
-          
-        <input type="checkbox" id="check" onclick="toggler()">
-        <span class="slider round"></span>
-    </label>
+      <div class="">
+        <input type="checkbox" class="checkbox" id="chk" onclick="toggler()" >
+        <label for="chk" class="label dark:bg-slate-900">
+          <i class="fa-regular fa-moon text-white"></i>
+          <i class="fa-regular fa-sun text-white"></i>
+          <div class="ball"></div>
+        </label>
+      </div> 
 
     </div>
   </header>
@@ -55,35 +58,12 @@
         < web developer & Analyst />
       </p>
     </div>
-    <div class="md:mt-24 ">
+    <div class="md:mt-24">
       <img src="/assets/shape.png">
     </div>
-
-    <div class="mt-24 md:mt-64 lg:mt-64 hidden ">
-      <nav class="navigation md:inline-block fixed  lg:ml-64 ">
-        <div class="transform -translate-x-1/2 space-y-2">
-          <a href="#main" class="nav-dot animate-ping selected-circle block w-2 h-2 rounded-full bg-indigo-900 lg:w-3 lg:h-3">
-            <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
-          </a>
-          <div class="lg:h-6 lg:w-1 bg-white lg:ml-1"></div>
-          <a href="#about" class="nav-dot block w-2 h-2 rounded-full bg-gray-500 lg:w-3 lg:h-3">
-            <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Work</span>
-          </a>
-          <div class="lg:h-6 lg:w-1 bg-white lg:ml-1"></div>
-          <a href="#projects" class="nav-dot block w-2 h-2 rounded-full bg-gray-500 lg:w-3 lg:h-3">
-            <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Clients</span>
-          </a>
-          <div class="lg:h-6 lg:w-1 bg-white lg:ml-1"></div>
-          <a href="#contact" class="nav-dot block w-2 h-2 rounded-full bg-gray-500 lg:w-3 lg:h-3">
-            <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
-          </a>
-        </div>
-      </nav>
-    </div>
-
   </div>
 
-  <div id="scroll" class="demo dark-scroll">
+  <div id="scroll" class="demo">
 
     <a href="#about"><span id="span"></span></a>
   </div>
@@ -93,7 +73,7 @@
       <ul class="grid grid-cols-12 gap-0 min-h-screen">
         <li class="col-span-3">
           <div class="md:ml-2 lg:flex lg:justify-center">
-            <p class="font-light md:text-4xl lg:text-3xl">About me</p>
+            <p class="font-light md:text-2xl lg:text-3xl">About me</p>
           </div>
         <li class="col-span-1">
           <div class="bg-slate-900 h-24 w-1 ml-2 ">    
@@ -101,7 +81,7 @@
         </li>
         <li class="col-span-8">
           <div class="">
-            <p class="font-light md:text-2xl lg:text-2xl"><b>Hello</b>, My name is Malik Almashdaq, I'm a full-stack developer and a data analyst</p>
+            <p class="font-light md:text-1xl lg:text-2xl"><b>Hello</b>, My name is Malik Almashdaq, I'm a full-stack developer and a data analyst</p>
           </div>
         </li>
         <li class="rounded-lg col-span-3 ">
@@ -237,7 +217,7 @@
   <div class="se4 container p-8 min-h-screen md:min-h-fit mt-6 text-center md:ml-6 lg:p-64 lg:ml-36 lg:flex lg:flex-col lg:justify-center">
     <h1 class="font-poppins text-4xl md:text-4xl lg:text-7xl grad font-light uppercase mb-8 lg:justify-center grad-border">Get in touch</h1>
     
-    <form name="contact" method="POST" data-netlify="true" class="drop-shadow-2xl">
+    <form name="contact" method="POST" data-netlify="true" class="">
     <div id="contact" class="flex flex-col text-white dark:text-slate-900 lg:justify-center" >
       <div class="md:flex md:flex-row">
         <div class="flex flex-row p-3 border-b-4 border-texts mb-4 md:mr-2">
