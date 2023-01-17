@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-full p-2 bg-body text-white">
+    <div class="flex flex-col p-4 font-light mt-24 ">
+        <h1 class="text-texts">E-CarWash -></h1>
+        <p class="text-white text-bold text-4xl mt-6">What is E-CarWash?<br>
+        & How It was created
+        </p>
+        <p class="text-secondary-text mt-6">E-CarWash is a full-stack platform connecting car washing service providers
+          to customers 
+        </p>
+        <div class="container w-full p-4">
+          <img class="rounded rounded-xl mt-4" src="./assets/E-CW.png">
+
+        </div>
+        <p class="text-secondary-text mt-6">The main sefslefk is ejdefj</p>
+    </div>
+
+    <script>
+        tailwind.config ={
+content: ["./**/*.{html,js}"],
+darkMode : 'class',
+theme: {
+  extend: {
+    colors: {
+      'body': '#1a1a2e',
+      'bodyDark': '#EAE1D6',
+      'texts':'#896bff',
+      'secondary-text' : '#dad5f3',
+      
+      'cover-dark' : '#3C3635',
+      'cover' : '#221038'
+    },
+    fontFamily:{
+    'poppins':["'Poppins'",'sans-serif']
+  }
+},
+}
+}
+    </script>
+</body>
+</html>
