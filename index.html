@@ -32,8 +32,8 @@
       <div class="">
         <input type="checkbox" class="checkbox" id="chk" onclick="toggler()" >
         <label for="chk" class="label dark:bg-slate-900">
-          <i class="fa-regular fa-moon text-white"></i>
-          <i class="fa-regular fa-sun text-white"></i>
+          <i class="fa-regular fa-moon text-white "></i>
+          <i class="fa-regular fa-sun text-white "></i>
           <div class="ball"></div>
         </label>
       </div> 
@@ -96,22 +96,123 @@
         </li>
         <li class="rounded-lg col-span-8 ">
           <div class="flex flex-wrap lg:space-x-8 md:space-x-3">
-            
-            <img class="pt-2" src="/assets/html5.svg" width="40px">
-            <img src="/assets/css3.svg" width="50px">
-            <img class="pt-2" src="/assets/javascript.svg" width="40px">
-            <img class="pt-2 " src="/assets/bootstrap.svg" width="40px">
-            <img class="pt-3 pb-1 " src="/assets/Angular.svg" width="50px">
-            <img class="pt-3 pb-1 " src="/assets/firebase.svg" width="50px">
-            <img class="pt-3 pb-1 " src="/assets/typescript.svg" width="50px">
-            <img src="/assets/java.svg" width="50px">
-            <img class="pt-2" src="/assets/python.svg" width="40px">
-            <img class="pt-4 " src="/assets/dotnet.svg" width="40px">
-            <img class="pt-2 " src="/assets/c-sharp.svg" width="40px">
-            <img class="pt-3 pb-2 " src="/assets/tailwind.svg" width="40px">
-            <img class="pt-3 " src="/assets/sass.svg" width="40px">
-            <img class="pt-3 pb-2" src="/assets/numpy.svg" width="40px">
-            <img class="pt-3 pb-2 " src="/assets/node.svg" width="40px">
+            <div class="con">
+
+              <img class="pt-2 image" src="/assets/html5.svg">
+              <div class="ov">
+                <div class="txt text-center">
+                  HTML5
+                </div>
+              </div>
+            </div>
+            <div class="con">
+              <img class="image pt-2" src="/assets/css3.svg" >
+              <div class="ov">
+                <div class="txt text-center">
+                  CSS3
+                </div>
+              </div>
+            </div>
+            <div class="con">
+              
+              <img class="pt-3" src="/assets/javascript.svg" width="50px">
+              <div class="ov">
+                <div class="txt">
+                  javascript
+                </div>
+              </div>
+            </div>
+            <div class="con">
+              
+              <img class="pt-2 " src="/assets/bootstrap.svg">
+              
+              <div class="ov">
+                <div class="txt">
+                  Bootstrap
+                </div>
+              </div>
+            </div>
+            <div class="con">
+              
+              <img class="pt-2" src="/assets/Angular.svg">
+              <div class="ov">
+                <div class="txt">
+                  Angular
+                </div>
+              </div>
+            </div>
+            <div class="con">
+              
+              <img class="pt-3" src="/assets/firebase.svg">
+              <div class="ov">
+                <div class="txt">
+                  Firebase
+                </div>
+              </div>
+            </div>
+            <div class="con">
+              
+              <img class="pt-3" src="/assets/typescript.svg" >
+              <div class="ov">
+                <div class="txt">
+                  Typescript
+                </div>
+              </div>
+            </div>
+            <div class="con">
+              
+              <img class="pt-3" src="/assets/java.svg" >
+              <div class="ov">
+                <div class="txt">
+                  Java
+                </div>
+              </div>
+            </div>
+            <div class="con">
+              
+              <img class="pt-3" src="/assets/python.svg" >
+              <div class="ov">
+                <div class="txt">
+                  Python
+                </div>
+              </div>
+            </div>
+            <div class="con">
+              
+              <img class="pt-3" src="/assets/dotnet.svg" >
+              <div class="ov">
+                <div class="txt">
+                  .Net
+                </div>
+              </div>
+            </div>
+            <div class="con">
+              
+              <img class="pt-3" src="/assets/c-sharp.svg" >
+              <div class="ov">
+                <div class="txt">
+                  C#
+                </div>
+              </div>
+            </div>
+            <div class="con">
+              
+              <img class="pt-3" src="/assets/tailwind.svg" >
+              <div class="ov">
+                <div class="txt">
+                  TailWindCSS
+                </div>
+              </div>
+            </div>
+            <div class="con">
+              
+              <img class="pt-3" src="/assets/numpy.svg" >
+              <div class="ov">
+                <div class="txt">
+                  Numpy
+                </div>
+              </div>
+            </div>
             
           </div>
         </li>
@@ -155,13 +256,14 @@
   <div id="projects" class="sec3 w-full text-center">
     <h1 class="text-4xl md:text-5xl grad font-light lg:text-6xl uppercase ">Projects</h1>
   </div>
-  <div  class="container mx-auto w-full grid grid-cols-1 lg:grid-cols-3 gap-4 text-white">
+  <div  class="container mx-auto w-full grid grid-cols-1 lg:grid-cols-3 gap-0 text-white">
 
     <div class="w-80 mx-auto bg-cover dark:bg-cover-dark rounded-xl overflow-hidden mt-16 ">
       <div class="md:flex">
 
         <div class="p-8 text-white">
           <div class="uppercase tracking-wide text-sm text-texts font-light text-2xl">Expense Tracker</div>
+          
           <a href="#" class="block mt-1 text-lg leading-tight font-medium text-texts hover:underline">Personal Project</a>
           <p class="mt-2 mb-6 font-light">A full-stack web app to track daily spendings and expenses. Created to learn Angular and Firebase </p>
           <div class="flex">
@@ -241,7 +343,7 @@
 
   </div>
   <div id="contact" class="se4 container p-8 min-h-screen md:min-h-fit mt-6 text-center md:ml-6 lg:p-64 lg:flex lg:flex-col lg:justify-center">
-    <h1 class="font-poppins text-4xl md:text-4xl lg:text-7xl grad font-light uppercase mb-8 lg:justify-center grad-border">Get in touch</h1>
+    <h1 class="font-poppins text-4xl md:text-4xl lg:text-4xl grad font-light uppercase mb-8 lg:justify-center grad-border">Get in touch</h1>
     
     <form name="contact" method="POST" data-netlify="true" class="">
     <div class="flex flex-col text-white dark:text-slate-900 lg:justify-center" >
